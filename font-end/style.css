@@ -126,4 +126,24 @@ a {
     border: 2px solid red;
 }
 
+@media(max-width: 500px){
+    .container{
+        background-image: url(./img/background_reponsive.jpg);
+    }
 
+    .form{
+        margin: 25% auto;
+        width: 300px;
+        height: auto;
+        padding: 10px 0;
+        box-shadow: 0 0 5px gray;
+    }
+
+    .form button{
+        width: 180px;
+    }
+
+    .slider{
+        display: none;
+    }
+}
